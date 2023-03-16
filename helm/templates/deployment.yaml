@@ -18,7 +18,7 @@ spec:
       volumes:
         - name: index-html
           configMap:
-            name: index-html
+            name: index.html
             defaultMode: 420
       containers:
         - resources: {}
